@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+        main p{
+            color:blue;
+        }
+        #inside p{
+            background-color:rgb(240, 39, 4);
+        }
+        #main > p{
+            background-color:aquamarine;
+        }
+        a{
+            color:blue;
+        }
+        a:link{
+            color:brown;
+        }
+        a:hover{
+            color:green; font-size: 20px;
+        }
+        a:hover{
+            text-decoration: none;font-size: 25px;
+        }
+        a:active{
+            color:purple;
+        }
+        #main p::first-letter{
+            color:greenyellow;font-size:30px;
+        }
+        #main p::first-line{
+            background-color:blueviolet;
+        }
+        #main p::after{
+            content:"Read More";
+            color:red;
+            font-size:40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, molestias aliquam
+             cumque eveniet neque atque  est error quasi? Aliquid, reiciendis optio minus quo
+              molestias vel similique cupiditate blanditiis ullam temporibus?</p>
+              <div id="main">
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, dolores? Quo accusamus obcaecati
+         natus aspernatur fuga doloremque. Minus reiciendis eveniet, alias temporibus, at
+         pariatur aut, possimus provident ut assumenda omnis?
+    </p></div></div>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea qui officiis, sint molestias nisi
+         aut accusamus repellendus cum minima debitis culpa voluptate veniam eveniet fugit iste maxime
+          totam dicta deserunt?
+    </p>
+    <a href="visit my page">
+
+    </a>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate error ea est 
+        incidunt ex rerum repudiandae eaque. Incidunt vitae illum libero illo soluta facere possimus
+         culpa id repellat sit.
+    </p>
+
+
+</body>
+</html>
